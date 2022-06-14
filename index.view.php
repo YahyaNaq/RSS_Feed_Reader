@@ -58,7 +58,7 @@
     </div>
     <?php elseif(isset($_POST["url"])) : ?>
         <div class="flex flex-col align-center mt-12">
-            <img src="articles_illustration.svg" class="w-auto h-64">
+            <img src="assets\articles_illustration.svg" class="w-auto h-64">
             <h1 class="text-blue-200 text-[1.8rem] mt-4 font-medium text-center uppercase">Oops!</h1>
             <h1 class="text-blue-200 text-[1.6rem] font-medium text-center uppercase">invalid url for an rss feed.</h1>
         </div>
