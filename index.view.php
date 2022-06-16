@@ -41,7 +41,7 @@
                   <div class="mt-2 mb-2">
                     <h1 class="text-base text-gray-500"><?= $article->date ?></h1>
                     <?php if(strlen($article->title)>58): ?>
-                        <h2 class="text-[1.6rem] font-bold text-gray-700 dark:text-white dark:hover:text-gray-200"><?= $article->title."..." ?></h2>
+                        <h2 class="text-[1.6rem] font-bold text-gray-700 dark:text-white dark:hover:text-gray-200"><?= substr($article->title, 0,56)."..." ?></h2>
                     <?php else: ?>
                         <h2 class="text-[1.6rem] font-bold text-gray-700 dark:text-white dark:hover:text-gray-200"><?= $article->title ?></h2>
                     <?php endif; ?>
